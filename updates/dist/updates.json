@@ -1,0 +1,546 @@
+{
+  "generatedAt": "2026-06-01T13:30:19.213Z",
+  "channel": "staging",
+  "updates": [
+    {
+      "id": "2026-06-01-staging-test",
+      "version": "staging-test",
+      "publishedAt": "2026-06-01T08:00:00Z",
+      "category": "test",
+      "priority": 100,
+      "visible": true,
+      "locales": {
+        "de": {
+          "title": "Test fuer den Staging-Feed",
+          "summary": "Temporärer Eintrag, um die Staging-Pipeline fuer dynamische Inhalte zu pruefen.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging-Veröffentlichung pruefen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dieser Testartikel bestätigt, dass die App Update-Inhalte aus dem öffentlichen Staging-Branch laden kann."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Die Quelle liegt im App-Repository.",
+                "GitHub Actions veröffentlicht sie im öffentlichen Dynamic-Content-Repository.",
+                "Development- und Preview-Builds lesen den Staging-Kanal."
+              ]
+            }
+          ]
+        },
+        "en": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "it": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "es": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "pl": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "ro": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        },
+        "alb": {
+          "title": "Staging feed test",
+          "summary": "Temporary update used to verify the staging dynamic-content pipeline.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Staging publish check"
+            },
+            {
+              "type": "paragraph",
+              "text": "This test article confirms that the app can load update content from the public staging branch."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The source lives in the app repository.",
+                "GitHub Actions publishes it to the public dynamic-content repository.",
+                "Development and preview builds read the staging channel."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2026-05-27-v3.4.0",
+      "version": "3.4.0",
+      "publishedAt": "2026-05-27T08:00:00Z",
+      "category": "feature",
+      "priority": 10,
+      "visible": true,
+      "locales": {
+        "de": {
+          "title": "Neue Updates-Uebersicht",
+          "summary": "Systemstatus, Geraetestatus und letzte Fehler sind jetzt direkt sichtbar.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Neue Startseite"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Startseite zeigt wichtige Informationen jetzt auf einen Blick:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Systemstatus",
+                "Geraetestatus",
+                "Letzte Fehler aller verbundenen Geraete",
+                "App-Updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Startseite",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Letzte Fehler"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fehler werden direkt auf der Startseite zusammengefasst. Aktive Fehler werden zuerst angezeigt."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Letzte Fehler",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "en": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "fr": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "it": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "es": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "pl": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "ro": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        },
+        "alb": {
+          "title": "New updates overview",
+          "summary": "System status, device status, and latest errors are now visible directly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "New start screen"
+            },
+            {
+              "type": "paragraph",
+              "text": "The start screen now shows important information at a glance:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "System status",
+                "Device status",
+                "Latest errors across connected devices",
+                "App updates"
+              ]
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Start screen",
+              "src": "updates/2026-05-27-v3.4.0/images/overview.png",
+              "placeholder": true
+            },
+            {
+              "type": "heading",
+              "text": "Latest errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Errors are summarized directly on the start screen. Active errors are shown first."
+            },
+            {
+              "type": "image",
+              "alt": "TODO Screenshot: Latest errors",
+              "src": "updates/2026-05-27-v3.4.0/images/latest-errors.png",
+              "placeholder": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
